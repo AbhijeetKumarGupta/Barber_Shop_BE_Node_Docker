@@ -1,1 +1,5 @@
-module.exports = null
+const getDetailsService = require("./getDetails.service");
+
+module.exports = {
+  getDetailsService,
+};

@@ -5,7 +5,7 @@ const {
   viewBusinessDetailsController
 } = require("../../controllers/user/customers/index");
 
-Router.get("/customer/get-business", getBusinessListController);
-Router.get("/customer/business/:business_id", viewBusinessDetailsController);
+Router.get("/get-business", getBusinessListController);
+Router.get("/business/:business_id", viewBusinessDetailsController);
 
 module.exports = Router;
